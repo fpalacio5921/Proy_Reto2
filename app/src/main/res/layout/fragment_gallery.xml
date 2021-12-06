@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo14"
+    android:orientation="vertical"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_gallery"
+        android:textAlignment="center"
+        android:fontFamily="@font/letra1"
+        android:textSize="40dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/prod7"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/prod7" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_prod7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra2"
+                        android:text="@string/imagen_libros"
+                        android:textColor="#0B0909"
+                        android:textSize="35sp" />
+                    <TextView
+                        android:id="@+id/tv_prod17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra2"
+                        android:text="@string/imagen_libros1"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_prod27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra2"
+                        android:text="@string/imagen_libros2"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/prod6"
+                    android:layout_width="189dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/prod11" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_prod6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra3"
+                        android:text="@string/imagen_esferos"
+                        android:textColor="#070606"
+                        android:textSize="35dp" />
+                    <TextView
+                        android:id="@+id/tv_prod16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra3"
+                        android:text="@string/imagen_esferos1"
+                        android:textColor="#070606"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:id="@+id/tv_prod26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra3"
+                        android:text="@string/imagen_esferos2"
+                        android:textColor="#070606"
+                        android:textSize="25dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/prod5"
+                    android:layout_width="270dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/prod5" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_prod5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra4"
+                        android:text="@string/imagen_escuadras"
+                        android:textColor="#0B0909"
+                        android:textSize="35sp" />
+                    <TextView
+                        android:id="@+id/tv_prod15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra4"
+                        android:text="@string/imagen_escuadras1"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_prod25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra4"
+                        android:text="@string/imagen_escuadras2"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/prod4"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/prod4" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_prod4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra5"
+                        android:text="@string/imagen_colores"
+                        android:textColor="#0B0909"
+                        android:textSize="35sp" />
+                    <TextView
+                        android:id="@+id/tv_prod14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra5"
+                        android:text="@string/imagen_colores1"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_prod24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra5"
+                        android:text="@string/imagen_colores2"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/prod3"
+                    android:layout_width="235dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/prod3" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_prod3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra6"
+                        android:text="@string/imagen_moto"
+                        android:textColor="#070606"
+                        android:textSize="35sp" />
+                    <TextView
+                        android:id="@+id/tv_prod13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra6"
+                        android:text="@string/imagen_moto1"
+                        android:textColor="#070606"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_prod23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra6"
+                        android:text="@string/imagen_moto2"
+                        android:textColor="#070606"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/prod2"
+                    android:layout_width="270dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/prod2" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_prod2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra7"
+                        android:text="@string/imagen_cuadernos"
+                        android:textColor="#0B0909"
+                        android:textSize="35sp" />
+                    <TextView
+                        android:id="@+id/tv_prod12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra7"
+                        android:text="@string/imagen_cuadernos1"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_prod22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra7"
+                        android:text="@string/imagen_cuadernos2"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/prod1"
+                    android:layout_width="171dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/prod1" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_prod1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra8"
+                        android:text="@string/imagen_cubo"
+                        android:textColor="#0B0909"
+                        android:textSize="35sp" />
+                    <TextView
+                        android:id="@+id/tv_prod11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra8"
+                        android:text="@string/imagen_cubo1"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_prod21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra8"
+                        android:text="@string/imagen_cubo2"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

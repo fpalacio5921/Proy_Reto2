@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Proyecto_Reto2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Productos</string>
+    <string name="menu_slideshow">Servicios</string>
+    <string name="menu_sucursales">Sucursales</string>
+
+    <string name="imagen_libros">Mis libros</string>
+    <string name="imagen_libros1">Por editorial y autor</string>
+    <string name="imagen_libros2">Los mejores precios</string>
+
+    <string name="imagen_esferos">ESFEROS</string>
+    <string name="imagen_esferos1">Todos los modelos</string>
+    <string name="imagen_esferos2">Desde $1000</string>
+
+    <string name="imagen_escuadras">Escuadras</string>
+    <string name="imagen_escuadras1">Diferentes tamaños</string>
+    <string name="imagen_escuadras2">Desde $6000</string>
+
+    <string name="imagen_colores">Colores</string>
+    <string name="imagen_colores1">Prismacolor</string>
+    <string name="imagen_colores2">Desde $80000</string>
+
+    <string name="imagen_moto">Moto Juguete</string>
+    <string name="imagen_moto1">Niños de 3 Años</string>
+    <string name="imagen_moto2">Precio $80000</string>
+
+    <string name="imagen_cuadernos">Cuadernos</string>
+    <string name="imagen_cuadernos1">De 50 y 100 Hojas</string>
+    <string name="imagen_cuadernos2">Precio $4000</string>
+
+    <string name="imagen_cubo">Cubo Magico</string>
+    <string name="imagen_cubo1">Diferentes Tamaños</string>
+    <string name="imagen_cubo2">Precio $10000</string>
+
+    <string name="imagen_dispositivo">Dispositivos</string>
+    <string name="imagen_dispositivo1">Reparacion Tecnica</string>
+    <string name="imagen_dispositivo2">Celulares y Tabletas</string>
+
+    <string name="imagen_cabina">Cabinas Telefonicas</string>
+    <string name="imagen_cabina1">Llamadas locales</string>
+    <string name="imagen_cabina2">Se reciben Dolares</string>
+
+    <string name="imagen_internet">Cafe Internet</string>
+    <string name="imagen_internet1">Se hacen trabajos</string>
+    <string name="imagen_internet2">$1500 Hora</string>
+
+    <string name="imagen_domicilio">Domicilios</string>
+    <string name="imagen_domicilio1">Dentro de la Ciudad</string>
+    <string name="imagen_domicilio2">tarifa $6000</string>
+
+    <string name="imagen_recargas">Recargas Celulares</string>
+    <string name="imagen_recargas1">A todo operador</string>
+    <string name="imagen_recargas2">Desde $1000</string>
+
+    <string name="imagen_encuadernado">Encuadernacion</string>
+    <string name="imagen_encuadernado1">Empaste de libros</string>
+    <string name="imagen_encuadernado2">Precio según tamaño</string>
+
+    <string name="imagen_fotocopia">Fotocopias</string>
+    <string name="imagen_fotocopia1">Tamaño carta y oficio</string>
+    <string name="imagen_fotocopia2">Precio $200 Hoja</string>
+
+    <string name="imagen_palermo">Sucursal Palermo</string>
+    <string name="imagen_palermo1">Calle 44 # 23-87</string>
+    <string name="imagen_palermo2">Celular 3124873487</string>
+
+    <string name="imagen_chico">Sucursal Chico</string>
+    <string name="imagen_chico1">Calle 85 # 15-24</string>
+    <string name="imagen_chico2">Celular 3002150573</string>
+
+    <string name="imagen_normandia">Sucursal Normandia</string>
+    <string name="imagen_normandia1">Calle 53 # 71-16</string>
+    <string name="imagen_normandia2">Celular 3205873211</string>
+
+    <string name="imagen_cedritos">Sucursal Cedritos</string>
+    <string name="imagen_cedritos1">Calle 109 # 18-76</string>
+    <string name="imagen_cedritos2">Celular 3192095602</string>
+
+    <string name="imagen_chapinero">Sucursal Chapinero</string>
+    <string name="imagen_chapinero1">Calle 54 # 4-18</string>
+    <string name="imagen_chapinero2">Celular 3012893388</string>
+
+    <string name="imagen_teusaquillo">Sucursal Teusaquillo</string>
+    <string name="imagen_teusaquillo1">Calle 34 # 17-72</string>
+    <string name="imagen_teusaquillo2">Celular 3102983722</string>
+
+    <string name="imagen_galerias">Sucursal Galerias</string>
+    <string name="imagen_galerias1">Calle 53 # 24-76</string>
+    <string name="imagen_galerias2">Celular 3167815255</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

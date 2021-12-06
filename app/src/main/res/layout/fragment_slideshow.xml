@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo13"
+    android:orientation="vertical"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_slideshow"
+        android:textAlignment="center"
+        android:fontFamily="@font/letra1"
+        android:textSize="40dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/serv7"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/serv7" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_serv7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra5"
+                        android:text="@string/imagen_dispositivo"
+                        android:textColor="#0B0909"
+                        android:textSize="35sp" />
+                    <TextView
+                        android:id="@+id/tv_serv17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra5"
+                        android:text="@string/imagen_dispositivo1"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_serv27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra5"
+                        android:text="@string/imagen_dispositivo2"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/serv6"
+                    android:layout_width="235dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/serv6" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_serv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra6"
+                        android:text="@string/imagen_cabina"
+                        android:textColor="#070606"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:id="@+id/tv_serv16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra6"
+                        android:text="@string/imagen_cabina1"
+                        android:textColor="#070606"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:id="@+id/tv_serv26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra6"
+                        android:text="@string/imagen_cabina2"
+                        android:textColor="#070606"
+                        android:textSize="25dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/serv5"
+                    android:layout_width="270dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/serv5" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_serv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra4"
+                        android:text="@string/imagen_internet"
+                        android:textColor="#0B0909"
+                        android:textSize="35sp" />
+                    <TextView
+                        android:id="@+id/tv_serv15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra4"
+                        android:text="@string/imagen_internet1"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_serv25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra4"
+                        android:text="@string/imagen_internet2"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/serv4"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/serv8" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_serv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra7"
+                        android:text="@string/imagen_domicilio"
+                        android:textColor="#0B0909"
+                        android:textSize="35sp" />
+                    <TextView
+                        android:id="@+id/tv_serv14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra7"
+                        android:text="@string/imagen_domicilio1"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_serv24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra7"
+                        android:text="@string/imagen_domicilio2"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/serv3"
+                    android:layout_width="235dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/serv3" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_serv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra2"
+                        android:text="@string/imagen_recargas"
+                        android:textColor="#070606"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_serv13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra2"
+                        android:text="@string/imagen_recargas1"
+                        android:textColor="#070606"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_serv23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra2"
+                        android:text="@string/imagen_recargas2"
+                        android:textColor="#070606"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/serv2"
+                    android:layout_width="270dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/serv2" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_serv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra3"
+                        android:text="@string/imagen_encuadernado"
+                        android:textColor="#0B0909"
+                        android:textSize="35sp" />
+                    <TextView
+                        android:id="@+id/tv_serv12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra3"
+                        android:text="@string/imagen_encuadernado1"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_serv22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra3"
+                        android:text="@string/imagen_encuadernado2"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/serv1"
+                    android:layout_width="270dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/serv1" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_serv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra4"
+                        android:text="@string/imagen_fotocopia"
+                        android:textColor="#0B0909"
+                        android:textSize="35sp" />
+                    <TextView
+                        android:id="@+id/tv_serv11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra4"
+                        android:text="@string/imagen_fotocopia1"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/tv_serv21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/letra4"
+                        android:text="@string/imagen_fotocopia2"
+                        android:textColor="#0B0909"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
